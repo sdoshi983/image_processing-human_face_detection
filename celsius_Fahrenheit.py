@@ -10,3 +10,7 @@ elif (x=='f' or x=='F'):
     Fahrenheit = float(input("Enter Fahrenheit: "))
     Celsius = (Fahrenheit - 32) * 5/9
     print("Celsius : ",Celsius)
+elif (x=='F' or x=='F'):
+    Fahrenheit = float(input("Enter Fahrenheit: "))
+    Celsius = (Fahrenheit - 32) * 5/9
+    print("Celsius : ",Celsius)

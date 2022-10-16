@@ -1,14 +1,14 @@
-l = [1,2,3,4,[5,6,7,8,[9,10,11]]]
+l = [1, 2, 3, 4, [5, 6, 7, 8, [9, 10, 11]]]
 
 lst = []
 final_list = []
 
-#l1[indeoffirstlist][indexofanotherlist]
+# l1[indeoffirstlist][indexofanotherlist]
 a = l[0:4]
 b = l[4][0:-1]
 c = l[4][4][0:]
 
-#Make Easy List of given Complex List
+# Make Easy List of given Complex List
 lst.append(a)
 lst.append(b)
 lst.append(c)
@@ -24,7 +24,7 @@ def merge_list(lst):
             merge_list(i)
         else:
             final_list.append(i)
-  
+
 merge_list(lst)
 
 print ('\nGiven List ==> ', l)
@@ -42,7 +42,7 @@ print(final_list)'''
 
 #----------Long But Easy----------#
 
-#[[1,2,3,4],[5,6,7,8],[9,10,11]]
+# [[1,2,3,4],[5,6,7,8],[9,10,11]]
 A = lst[0][0]
 B = lst[0][1]
 C = lst[0][2]
@@ -67,6 +67,6 @@ final_list.append(I)
 final_list.append(J)
 final_list.append(K)
 
-print ('\nGiven List ==> ', l)
-print ('\nConverted to Easy List ==> ', lst)
-print ('\nFinal List ==> ', final_list)
+print('\nGiven List ==> ', l)
+print('\nConverted to Easy List ==> ', lst)
+print('\nFinal List ==> ', final_list)
